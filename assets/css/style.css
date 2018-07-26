@@ -1,0 +1,45 @@
+#name{
+    background-color: green;
+    width: 200px
+}
+#about{
+    position: fixed;
+    left: 800px;
+    top: 20px;
+}
+#aboutBnt {
+    height: 50px;
+    width: 100px;
+    font-size: 14pt;
+    font-style: normal
+
+}
+#portfolio{
+    position: fixed;
+    left: 925px;
+    top: 20px
+}
+#portfolioBtn{
+    height: 50px;
+    width: 100px;
+    font-size: 14pt;
+    font-style: normal
+
+}
+#contact {
+    position: fixed;
+    left: 1050px;
+    top: 20px
+}
+#contactBtn {
+    height: 50px;
+    width: 100px;
+    font-size: 14pt;
+    font-style: normal
+    
+}
+#mystory {
+    position: fixed;
+    left: 260px;
+    top: 150px
+};
