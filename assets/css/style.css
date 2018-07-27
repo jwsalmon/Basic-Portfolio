@@ -69,6 +69,42 @@ input[type=submit]{
     color: white; 
     background-color: green;  
 }
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.col-Lable {
+    float: left;
+    width: 5%;
+    margin-top: 6px;
+}
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.col-input {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
 #mystory {
     position: fixed;
     left: 260px;
