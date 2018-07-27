@@ -1,3 +1,6 @@
+.pageTitle{
+    color: green
+}
 #name{
     background-color: green;
     width: 200px
@@ -37,6 +40,34 @@
     font-size: 14pt;
     font-style: normal
     
+}
+#prj1{
+    position: relative;
+    left: 10px;
+}
+#prj2{
+    position: relative;
+    left: 10px;
+}
+#prj3{
+    position: relative;
+    left: 10px;
+}
+#prj4{
+    position: relative;
+    left: 250px;
+    bottom: 610px
+
+}
+#prj5{
+    position: relative;
+    left: 250px;
+    bottom: 610px
+}
+input[type=submit]{
+    font-size: 14pt;
+    color: white; 
+    background-color: green;  
 }
 #mystory {
     position: fixed;
