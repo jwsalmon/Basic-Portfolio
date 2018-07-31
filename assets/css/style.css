@@ -127,7 +127,7 @@ input[type=text], select, textarea {
     }
 }
 #myimage{
-    /*float: left;*/
+    float: left;
 }
 #mystory {
     position: absolute;
