@@ -1,3 +1,7 @@
+/*body{
+    background-image: url("/assets/images/image3.jpg");
+}*/
+
 .pageTitle{
     color: #4aaaa5
 }
@@ -5,11 +9,12 @@
     background-color: #4aaaa5;
     width: 200px;
     float: left;
-    color: white
+    color: white;
+    margin: 0px 0px 0px 334px;
 }
 
 header{
-    height: 60px;
+    height: 80px;
     width: 100%;
     border: 1px solid #cccccc;
     background-color: #ffffff
@@ -17,8 +22,8 @@ header{
 
 .lower { 
     width: 958px;
-    height: 400px;
-    margin: 1px 100px 1px 82px;
+    height: 4440px;
+    margin: 20px 0px 0px 335px;
     border: 1px solid #cccccc;
    /* background-image: url("/assets/images/qbkls.png");*/
     background-color: #ffffff;
@@ -26,6 +31,7 @@ header{
 
 #about{
     float: right;
+    margin: 0px 10px 0px 366px;
 }
 #aboutBnt {
     height: 50px;
@@ -36,6 +42,7 @@ header{
 }
 #portfolio{
     float: right;
+    margin: 0px 10px 0px 3px;
 }
 #portfolioBtn{
     height: 50px;
@@ -46,6 +53,7 @@ header{
 }
 #contact {
     float: right;
+    margin: 0px 336px 0px 10px;
 }
 #contactBtn {
     height: 50px;
@@ -56,8 +64,8 @@ header{
 }
 #PortDisplay{
     height: 700px;
-    width: 958;
-    margin: 1px 100px;
+    width: 958px;
+    margin: 20px 335px;
     border: 1px solid #cccccc;
 }
 #prj1{
@@ -111,6 +119,7 @@ input[type=text], select, textarea {
     float: left;
     width: 75%;
     margin-top: 6px;
+    margin-left: 16px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -126,12 +135,12 @@ input[type=text], select, textarea {
         margin-top: 0;
     }
 }
-#myimage{
+/*#myimage{
     float: left;
-}
+}*/
 #mystory {
     position: absolute;
-    left: 350px;
+    left: 590px;
     top: 200px;
     width: 701px;
     float: right;
