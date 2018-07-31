@@ -6,24 +6,16 @@
     width: 200px;
     float: left;
 }
-body{
-    margin-left: 5%;
-    margin-right: 20%;
-}
+
 header{
-    
-    border: 10px solid gray;
+    height: 100px;
     width: 100%;
+    margin-bottom: 25px
 }
-.lower {
-   
-    margin-top: 5%;
+.lower { 
+   width: 100%;
 }
 #about{
-  /*  position: relative;
-    left: 800px;
-    top: 20px;
-    right:0px;*/
     float: right;
 }
 #aboutBnt {
@@ -34,10 +26,6 @@ header{
 
 }
 #portfolio{
- /*   position: relative;
-    left: 925px;
-    top: 20px;
-    bottom: 0px;*/
     float: right;
 }
 #portfolioBtn{
@@ -48,10 +36,6 @@ header{
 
 }
 #contact {
-   /* position: relative;
-    left: 1050px;
-    top: 20px;
-    bottom: 0px;*/
     float: right;
 }
 #contactBtn {
@@ -128,5 +112,5 @@ input[type=text], select, textarea {
 #mystory {
     position: absolute;
     left: 330px;
-    top: 160px
+    top: 220px
 };
