@@ -1,6 +1,6 @@
-/*body{
-    background-image: url("/assets/images/image3.jpg");
-}*/
+body{
+    background-image: url("../images/qbkls.png");
+}
 
 .pageTitle{
     color: #4aaaa5
@@ -69,6 +69,7 @@ header{
     width: 958px;
     margin: 20px 335px;
     border: 1px solid #cccccc;
+    background-color: #ffffff;
 }
 #prj1{
     position: relative;
