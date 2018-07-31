@@ -3,18 +3,28 @@
 }
 #name{
     background-color: green;
-    width: 200px
+    width: 200px;
+    float: left;
 }
 body{
     margin-left: 5%;
     margin-right: 20%;
 }
-
+header{
+    
+    border: 10px solid gray;
+    width: 100%;
+}
+.lower {
+   
+    margin-top: 5%;
+}
 #about{
-    position: fixed;
+  /*  position: relative;
     left: 800px;
     top: 20px;
-    right:0px;
+    right:0px;*/
+    float: right;
 }
 #aboutBnt {
     height: 50px;
@@ -24,10 +34,11 @@ body{
 
 }
 #portfolio{
-    position: fixed;
+ /*   position: relative;
     left: 925px;
     top: 20px;
-    bottom: 0px;
+    bottom: 0px;*/
+    float: right;
 }
 #portfolioBtn{
     height: 50px;
@@ -37,10 +48,11 @@ body{
 
 }
 #contact {
-    position: fixed;
+   /* position: relative;
     left: 1050px;
     top: 20px;
-    bottom: 0px;
+    bottom: 0px;*/
+    float: right;
 }
 #contactBtn {
     height: 50px;
@@ -114,7 +126,7 @@ input[type=text], select, textarea {
     }
 }
 #mystory {
-    position: fixed;
+    position: absolute;
     left: 330px;
-    top: 150px
+    top: 160px
 };
