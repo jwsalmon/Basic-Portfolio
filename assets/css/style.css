@@ -1,19 +1,29 @@
 .pageTitle{
-    color: green
+    color: #4aaaa5
 }
 #name{
-    background-color: green;
+    background-color: #4aaaa5;
     width: 200px;
     float: left;
+    color: white
 }
 
 header{
-    height: 100px;
+    height: 60px;
     width: 100%;
+    border: 1px solid #cccccc;
+    background-color: #ffffff
 }
+
 .lower { 
-   width: 100%;
+    width: 958px;
+    height: 400px;
+    margin: 1px 100px 1px 82px;
+    border: 1px solid #cccccc;
+   /* background-image: url("/assets/images/qbkls.png");*/
+    background-color: #ffffff;
 }
+
 #about{
     float: right;
 }
@@ -43,6 +53,12 @@ header{
     font-size: 14pt;
     font-style: normal
     
+}
+#PortDisplay{
+    height: 700px;
+    width: 958;
+    margin: 1px 100px;
+    border: 1px solid #cccccc;
 }
 #prj1{
     position: relative;
@@ -81,6 +97,7 @@ label {
     float: left;
     width: 5%;
     margin-top: 6px;
+    color: #777777;
 }
 input[type=text], select, textarea {
     width: 75%;
@@ -88,6 +105,7 @@ input[type=text], select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    color: #777777;
 }
 .col-input {
     float: left;
@@ -108,8 +126,14 @@ input[type=text], select, textarea {
         margin-top: 0;
     }
 }
+#myimage{
+    /*float: left;*/
+}
 #mystory {
     position: absolute;
-    left: 330px;
-    top: 220px
+    left: 350px;
+    top: 200px;
+    width: 701px;
+    float: right;
+    color: #777777;
 };
